@@ -72,6 +72,7 @@ func init() {
 	// +kubebuilder:scaffold:scheme
 }
 
+// Trigger production code changes filter for CI
 func main() {
 	var metricsAddr string
 	var enableLeaderElection bool
